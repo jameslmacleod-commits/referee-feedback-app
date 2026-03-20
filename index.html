@@ -39,7 +39,9 @@
 <label>Signed</label><input type='text' id='signed' class='autosave'>
 <label>Date</label><input type='date' id='date' class='autosave'>
 </div>
-<button onclick='exportData()'>Export Form Data</button>
+<button onclick='exportData()'>Export JSON</button>
+<button onclick='exportPDF()'>Export PDF</button>
 <button class='reset' onclick='resetForm()'>Start New Form</button>
+<script src='jspdf.umd.min.js'></script>
 <script src='script.js'></script>
 </body></html>
